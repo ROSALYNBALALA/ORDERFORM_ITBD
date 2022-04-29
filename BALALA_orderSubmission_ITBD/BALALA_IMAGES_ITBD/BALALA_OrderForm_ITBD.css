@@ -1,0 +1,141 @@
+/*img{
+    height: 150px;
+    width: 150px;
+   
+   
+}*/
+body{
+  background-image:url("/BALALA_IMAGES_ITBD/bg.png") ;
+  background-color: beige;
+  font-family: Helvetica, sans-serifs
+}
+.fries{
+  height: 150px;
+  width: 150px;
+  margin-bottom: -100px;
+  margin-right: -100px;
+}
+.info{
+  margin-left:10px 20px ;
+}
+h2 {
+  text-align: center;
+  background-color: #e07e45;
+  width: 40%;
+  border-radius: 30px;
+  padding: 12px;
+  text-align: center;
+  margin: auto;
+  font-size: 25px;
+
+  
+}
+.icon{
+    height: 50px;
+    width: 50px;
+}
+p{
+  font-size: 18px;
+}
+fieldset{
+  background-color: #fdedc5;
+  width: 60%;
+  box-shadow: 5px 5px 15px 1px gray;
+  border: none;
+  border-radius: 20px;
+  margin: auto ;
+  padding-top: 10px;
+}
+label.information{
+  padding: 20px 100px 10px 70px;
+  display: inline-block;
+  width: 190px;
+  font-weight: bolder;
+  font-size: 18px;
+  
+}
+input.information, input[type="text"]{
+  padding: 10px 5px;
+  width: 250px;
+  margin-right: 10px;
+  text-align: left;
+  display: inline-block;
+  margin-left: -100px;
+  
+}
+input[type="reset"],input[type="submit"]{
+  padding: 10px;
+  border-radius: 30px;
+  background-color: #fddb96;
+  font-size: 20px;
+  width: 200px;
+}
+input.Quantity{
+  width: 50px;
+  padding: 7px;
+}
+img.Logo{
+  vertical-align: middle;
+  width: 100px;
+  background-color: #fddb96;
+}
+textarea.information{
+  padding: 10px;
+  height: 110px;
+  width: 540px;
+  display: block;
+  margin-left: 200px;
+  margin-right: auto;
+  resize: none;
+}
+label.Feedback{
+  font-weight: bolder;
+  font-size: 18px;
+  padding-left: 30px;
+}
+textarea.Feedback{
+  resize: none;
+  height: 150px;
+  width: 500px;
+}
+.a{
+  height: 120px;
+  width: 120px;
+  margin: 5px;
+  opacity: 0.80;
+  border-radius: 30px;
+  margin-left: 5%;
+  border: 10px double  red;
+  
+}
+.a:hover{
+    box-shadow: 2px 2px 2px maroon;
+}
+p{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.c{
+  height:50px; 
+  width:50px; 
+  margin-bottom:-20px; 
+  margin-left: -50px;
+}
+.gif{
+  height:150px; 
+    width:150px;
+  margin-top:-100px; 
+  margin-bottom: -100px;
+  margin-left:-600px;
+  padding-bottom: 50px;
+}
+#go{
+  text-decoration: none;
+  color: #fbfbf0;
+  background-color: #f7c87b;
+  cursor: pointer;
+  border-radius: 20px;
+  padding: 10px 20px;
+  font-size: 2em;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}

@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Order Form</title>
+        <meta charset="UTF-8">
+        <meta name="author" content="ROSALYN Z. BALALA">
+        <meta http-equiv="refresh" content="1800">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <link rel="stylesheet" type="text/css" href="BALALA_IMAGES_ITBD/BALALA_OrderForm_ITBD.css">
+        <link rel = "icon" href="icon" type= "image/x-icon"> 
+       
+    </head>
+    <body>
+      
+        <form action="#" method="post">
+            <fieldset >
+                <img src="BALALA_IMAGES_ITBD/fries-unscreen.gif" class="fries">
+                <h2 class="info">CUSTOMER'S INFORMATION</h2>
+                <br>    
+                <br>
+                <label class="information" for="Name"><img  src="/BALALA_IMAGES_ITBD/logo.png" style="height:50px; width:50px; margin-bottom:-20px; margin-right:5px;">Name: </label>
+                <input class="information" type="text" name="Name" id="Name" placeholder="Type your full name here." required >
+                <br>
+                <br>
+                <label class="information" for="Address"><img src="/BALALA_IMAGES_ITBD/address.png" style="height:50px; width:50px; margin-bottom:-20px; margin-right:5px;">Address: </label>
+                <input class="information" type="text" name="Address" id="Address" placeholder="Type your Address here." required>
+                <br>
+                <br>
+                <label class="information" for="Email"><img src="/BALALA_IMAGES_ITBD/email.png" style="height:50px; width:50px; margin-bottom:-20px; margin-right:5px;">Email: </label>
+                <input class="information" type="email" name="Email" id="Email" placeholder="Type your Email here." required >
+                <br>
+                <br>
+                <label class="information" for="ContactNo"><img src="/BALALA_IMAGES_ITBD/contact.png" class="c">Contact Number: </label>
+                <input class="information" type="number" name="ContactNo" id="ContactNo" placeholder="Type your Contact Number here." maxlength="12" minlength="12" min="1" required >
+                <br>
+                <br>
+                <label style="width: 240px;" class="information" for="DeliveryInstructions">Add delivery instruction</label>
+                <br>
+                <textarea class="information" name="message" id="DeliveryInstructions"></textarea>
+                <br>
+        </fieldset>
+        <br>
+        <br>
+        <fieldset>
+            <div align="center">
+                <img src="/BALALA_IMAGES_ITBD/buger.gif" class="gif">
+                <h2 style="text-align: center;">FOODS</h2>
+                
+                    <div id="top">
+                    <a href="#burger" ><img src="/BALALA_IMAGES_ITBD/burger.jpg" class="a"</a>
+                    <a href="#pasta"><img src="/BALALA_IMAGES_ITBD/PASTA.jpg" class="a" ></a>
+                    <a href="#fries"><img src="/BALALA_IMAGES_ITBD/fries.jpg" class="a" ></a>
+                    <a href="#drinks"><img src="/BALALA_IMAGES_ITBD/SODA.jpg" class="a"></a>
+                        
+                    </div>
+                </div>            
+        </fieldset>
+        <br>
+        <fieldset>
+            <h2 id="burger">BURGERS</h2>
+            <div align="center" class="menu">
+                <img style="width: 500px; height: 400px; float: left;" src="BALALA_IMAGES_ITBD/b.jpg">
+            </div>
+
+                <p><strong>Choice of Bun: </strong></p>
+                <div>
+                    <input type="radio" id="WhiteBun" name="bun" value="WhiteBun">
+                     <label for="WhiteBun">White Bun</label>  
+                </div>
+                <div>
+                    <input type="radio" id="WheatBun" name="bun" value="WheatBun">
+                     <label for="WheatBun">Wheat Bun</label>  
+                </div>
+                <div>
+                    <input type="radio" id="honey oat" name="bun" value="honey oat">
+                     <label for="honey oat">Honey Oat</label>  
+                </div>
+                <div>
+                    <input type="radio" id="sugarfree" name="bun" value="sugarfree">
+                     <label for="sugarfree">Sugar Free</label>  
+                </div>
+                <p><strong>Add ons</strong></p>
+                <div>
+                    <input type="checkbox" id="singlepatty">
+                    <span class="checkmark"></span>
+                    <label for="singlepatty">Single Patty
+                    </label>
+                </div>
+                <div>
+                    <input type="checkbox" id="doule patty">
+                    <span class="checkmark"></span>
+                    <label for="doule patty">Double Patty
+                    </label>
+                </div>
+                <div>
+                    <input type="checkbox" id="with cheese">
+                    <span class="checkmark"></span>
+                    <label for="with cheese">With Cheese
+                    </label>
+                </div>
+                <div>
+                    <input type="checkbox" id="coleslaw">
+                    <span class="checkmark"></span>
+                    <label for="coleslaw">Coleslaw
+                    </label>
+                </div>
+                <div>
+                    <input type="checkbox" id="tomato">
+                    <span class="checkmark"></span>
+                    <label for="tomato">Tomato
+                    </label>
+                </div>
+                <div>
+                    <input type="checkbox" id="onion">
+                    <span class="checkmark"></span>
+                    <label for="onion">Onion
+                    </label>
+                </div>
+                <div>
+                    <input type="checkbox" id="Pickles">
+                    <span class="checkmark"></span>
+                    <label for="Pickles">Pickles
+                    </label>
+                </div>
+                <div>
+                    <input type="checkbox" id="Bacon">
+                    <span class="checkmark"></span>
+                    <label for="Bacon">Bacon
+                    </label>
+                </div>
+
+            <br>
+            <label for="Quantity_One">Quantity: </label>
+                <input class="Quantity" type="number" name="Quantity_One" id="Quantity_One" min="1" max="100">
+                <p class="chil"><a href="#top" id="go">GO TOP</a></p>
+        </fieldset>
+        <br>
+        <fieldset>
+            <h2 id="pasta">PASTA</h2>
+            <div align="center" class="menu">
+                <img style="width: 400px; height: 245px; float: left; padding-left: 30px; padding-right: 60px;" src="BALALA_IMAGES_ITBD/P.jpg">
+            </div>
+            <div>
+                <p><strong>Choice of Sauce: </strong></p>
+                <div>
+                    <input type="radio" id="SPAGHETTI" name="pasta" value="SPAGHETTI">
+                     <label for="SPAGHETTI">Spaghetti</label>  
+                </div>
+                <div>
+                    <input type="radio" id="Pesto" name="pasta" value="Pesto">
+                     <label for="Pesto">Pesto</label>  
+                </div>
+                <div>
+                    <input type="radio" id="Carbonara" name="pasta" value="Carbonara">
+                     <label for="Carbonara">Carbonara</label>  
+                </div>
+                <p><strong>Extras: </strong></p>
+                <div>
+                    <input type="checkbox" id="cheese">
+                    <span class="checkmark_one"></span>
+                    <label for="cheese">Cheese
+                    </label>
+                </div>
+                <div>
+                    <input type="checkbox" id="sauce">
+                    <span class="checkmark_one"></span>
+                    <label for="sauce">Sauce
+                    </label>
+                </div>
+                <br>
+                <label for="Quantity_two">Quantity: </label>
+                <input class="Quantity" type="number" name="Quantity_two" id="Quantity_two" min="1" max="100" >
+                <p class="chil"><a href="#top" id="go">GO TOP</a></p>
+            </div>
+        </fieldset>
+        <br>
+        <fieldset>
+            <div align="center" class="menu">
+                <h2 id="fries">FRIES</h2>
+                <img style="width: 400px;float: left; padding-left: 30px; padding-right: 60px;" src="BALALA_IMAGES_ITBD/F.jpg">
+            </div>
+            <p><strong>Sizes: </strong></p>
+                <div>
+                    <input type="radio" id="Small" name="sizes" value="Small">
+                     <label for="Small">Small</label>  
+                </div>
+                <div>
+                    <input type="radio" id="Medium" name="sizes" value="Medium">
+                     <label for="Medium">Medium</label>  
+                </div>
+                <div>
+                    <input type="radio" id="Large" name="sizes" value="Large">
+                     <label for="Large">Large</label>  
+                </div>
+                <p><strong>Flavor: </strong></p>
+                <div>
+                    <input type="checkbox" id="Honey Butter">
+                    <span class="checkmark_one"></span>
+                    <label for="Honey Butter">Honey Butter
+                    </label>
+                </div>
+                <div>
+                    <input type="checkbox" id="Barbecue">
+                    <span class="checkmark_one"></span>
+                    <label for="Barbecue">Barbecue
+                    </label>
+                </div>
+                <div>
+                    <input type="checkbox" id="Nori">
+                    <span class="checkmark_one"></span>
+                    <label for="Nori">Nori
+                    </label>
+                </div>
+                <br>
+                <label for="Quantity_three">Quantity: </label>
+                <input class="Quantity" type="number" name="Quantity_three" id="Quantity_three" min="1" max="100" >
+                <p class="chil"><a href="#top" id="go">GO TOP</a></p>
+        </fieldset>
+        <br>
+        <fieldset>
+            <div align="center" class="menu">
+                <h2 id="drinks">DRINKS</h2>
+                <img style=" height: 300px; float: left; padding-left: 120px; padding-right: 170px;" src="BALALA_IMAGES_ITBD/D.jpg">
+            </div>
+            <p><strong>Sizes: </strong></p>
+                <div>
+                    <input type="radio" id="Sprite" name="drinks" value="Sprite">
+                     <label for="Sprite">Sprite</label>  
+                </div>
+                <div>
+                    <input type="radio" id="Coke" name="drinks" value="Coke">
+                     <label for="Coke">Coke</label>  
+                </div>
+                <div>
+                    <input type="radio" id="Pepsi" name="drinks" value="Pepsi">
+                     <label for="Pepsi">Pepsi</label>  
+                </div>
+                <div>
+                    <input type="radio" id="Royal" name="drinks" value="Royal">
+                     <label for="Royal">Royal</label>  
+                </div>
+            <p><strong>Sizes: </strong></p>
+                <div>
+                    <input type="radio" id="Small_one" name="sizes_one" value="Small_one">
+                     <label for="Small_one">Small</label>  
+                </div>
+                <div>
+                    <input type="radio" id="Medium_one" name="sizes_one" value="Medium_one">
+                    <label for="Medium_one"> Medium</label>  
+                </div>
+                <div>
+                    <input type="radio" id="Large_one" name="sizes_one" value="Large_one">
+                     <label for="Large_one">Large</label>  
+                </div>
+                <br>
+                <label for="Quantity_four">Quantity: </label>
+                <input class="Quantity" type="number" name="Quantity_four" id="Quantity_four" min="1" max="100">
+                <p class="chil"><a href="#top" id="go">GO TOP</a></p>
+        </fieldset>
+        <br>
+        <fieldset>
+            <h2>CHECK-OUT</h2>
+            <label for="Delivery"><img style="width:200px;Height:200px;padding: 30px 200px 10px 200px; vertical-align: middle;" src="BALALA_IMAGES_ITBD/pick.gif"/>
+            <input input type="radio" id="Delivery" name="deliverytype" value="Delivery" style="margin-left:-200px;">
+            Delivery</label>  
+            <label for="Pick-Up"><img style="padding: 30px 200px 10px 200px; vertical-align: middle;" src="BALALA_IMAGES_ITBD/pick.png"class="fries"/>
+            <input input type="radio" id="Pick-Up" name="deliverytype" value="Pick-Up"style="margin-left:-50px;">
+            Pick-Up </label>  
+            <br>
+            <br>
+            <br>
+            <div align="center">
+                <br>
+                <br>
+                <p><b>Let us know what ways we can improve our ordering form.</b></p>
+                <label class="Feedback" style="margin-right: 390px;" for="Feedback">Add a feedback: </label>
+                <textarea class="Feedback" name="message" id="Feedback"></textarea>
+                <br>
+                <br>
+                
+                <form action="BALALA_FeedbackForm_ITCD.html">
+                    <input
+                        type="submit"
+                        value="SUBMIT ORDER"
+                    />
+                    <input type="reset" value="CLEAR FORM" />
+                </form>
+            </div>
+        </fieldset>
+</form>          
+</body>
+</html>
